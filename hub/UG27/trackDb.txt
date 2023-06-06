@@ -1,0 +1,131 @@
+track hubCentral
+compositeTrack on
+shortLabel F.circinatum
+longLabel F.circinatum pangenome
+group comphub
+subGroup1 view Track_Type Snake=Alignments  
+subGroup2 orgs Organisms Anc0=Anc0 UG27=UG27 CMWF2634=CMWF2634 _MINIGRAPH_=_MINIGRAPH_ FSP34=FSP34 CMWF560=CMWF560 CMWF2633=CMWF2633 UG10=UG10 JAL-3=JAL-3 CMWF1803=CMWF1803
+dragAndDrop subTracks
+#allButtonPair on
+dimensions dimensionX=view dimensionY=orgs
+noInherit on
+priority 0
+centerLabelsDense on
+visibility full
+html ../documentation/hubCentral
+type bigBed 3
+
+	track hubCentralAlignments
+	shortLabel Alignments
+	view Alignments
+	visibility full
+	subTrack hubCentral
+
+		track snakeAnc0
+		longLabel Anc0
+		shortLabel Anc0
+		otherSpecies Anc0
+		visibility full
+		parent hubCentralAlignments
+		priority 2
+		bigDataUrl ../circinatum.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=Anc0
+
+		track snakeCMWF2634
+		longLabel CMWF2634
+		shortLabel CMWF2634
+		otherSpecies CMWF2634
+		visibility full
+		parent hubCentralAlignments
+		priority 4
+		bigDataUrl ../circinatum.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=CMWF2634
+
+		track snake_MINIGRAPH_
+		longLabel _MINIGRAPH_
+		shortLabel _MINIGRAPH_
+		otherSpecies _MINIGRAPH_
+		visibility full
+		parent hubCentralAlignments
+		priority 5
+		bigDataUrl ../circinatum.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=_MINIGRAPH_
+
+		track snakeFSP34
+		longLabel FSP34
+		shortLabel FSP34
+		otherSpecies FSP34
+		visibility hide
+		parent hubCentralAlignments off
+		priority 6
+		bigDataUrl ../circinatum.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=FSP34
+
+		track snakeCMWF560
+		longLabel CMWF560
+		shortLabel CMWF560
+		otherSpecies CMWF560
+		visibility hide
+		parent hubCentralAlignments off
+		priority 7
+		bigDataUrl ../circinatum.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=CMWF560
+
+		track snakeCMWF2633
+		longLabel CMWF2633
+		shortLabel CMWF2633
+		otherSpecies CMWF2633
+		visibility hide
+		parent hubCentralAlignments off
+		priority 8
+		bigDataUrl ../circinatum.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=CMWF2633
+
+		track snakeUG10
+		longLabel UG10
+		shortLabel UG10
+		otherSpecies UG10
+		visibility hide
+		parent hubCentralAlignments off
+		priority 9
+		bigDataUrl ../circinatum.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=UG10
+
+		track snakeJAL-3
+		longLabel JAL-3
+		shortLabel JAL-3
+		otherSpecies JAL-3
+		visibility hide
+		parent hubCentralAlignments off
+		priority 10
+		bigDataUrl ../circinatum.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=JAL-3
+
+		track snakeCMWF1803
+		longLabel CMWF1803
+		shortLabel CMWF1803
+		otherSpecies CMWF1803
+		visibility hide
+		parent hubCentralAlignments off
+		priority 11
+		bigDataUrl ../circinatum.full.hal
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=CMWF1803
+

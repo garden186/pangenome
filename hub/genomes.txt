@@ -1,0 +1,110 @@
+genome Anc0
+twoBitPath Anc0/Anc0.2bit
+trackDb Anc0/trackDb.txt
+groups groups.txt
+htmlPath Anc0/description.html
+description Anc0
+organism Anc0
+orderKey 4800
+scientificName Anc0
+defaultPos Anc0refChr268_1:1-1000
+
+genome CMWF1803
+twoBitPath CMWF1803/CMWF1803.2bit
+trackDb CMWF1803/trackDb.txt
+groups groups.txt
+htmlPath CMWF1803/description.html
+description CMWF1803
+organism CMWF1803
+orderKey 4800
+scientificName CMWF1803
+defaultPos chr1:1-1000
+
+genome CMWF2633
+twoBitPath CMWF2633/CMWF2633.2bit
+trackDb CMWF2633/trackDb.txt
+groups groups.txt
+htmlPath CMWF2633/description.html
+description CMWF2633
+organism CMWF2633
+orderKey 4800
+scientificName CMWF2633
+defaultPos chr1:1-1000
+
+genome CMWF2634
+twoBitPath CMWF2634/CMWF2634.2bit
+trackDb CMWF2634/trackDb.txt
+groups groups.txt
+htmlPath CMWF2634/description.html
+description CMWF2634
+organism CMWF2634
+orderKey 4800
+scientificName CMWF2634
+defaultPos chr1:1-1000
+
+genome CMWF560
+twoBitPath CMWF560/CMWF560.2bit
+trackDb CMWF560/trackDb.txt
+groups groups.txt
+htmlPath CMWF560/description.html
+description CMWF560
+organism CMWF560
+orderKey 4800
+scientificName CMWF560
+defaultPos chr1:1-1000
+
+genome FSP34
+twoBitPath FSP34/FSP34.2bit
+trackDb FSP34/trackDb.txt
+groups groups.txt
+htmlPath FSP34/description.html
+description FSP34
+organism FSP34
+orderKey 4800
+scientificName FSP34
+defaultPos chr1:1-1000
+
+genome JAL-3
+twoBitPath JAL-3/JAL-3.2bit
+trackDb JAL-3/trackDb.txt
+groups groups.txt
+htmlPath JAL-3/description.html
+description JAL-3
+organism JAL-3
+orderKey 4800
+scientificName JAL-3
+defaultPos chr1:1-1000
+
+genome UG10
+twoBitPath UG10/UG10.2bit
+trackDb UG10/trackDb.txt
+groups groups.txt
+htmlPath UG10/description.html
+description UG10
+organism UG10
+orderKey 4800
+scientificName UG10
+defaultPos chr1:1-1000
+
+genome UG27
+twoBitPath UG27/UG27.2bit
+trackDb UG27/trackDb.txt
+groups groups.txt
+htmlPath UG27/description.html
+description UG27
+organism UG27
+orderKey 4800
+scientificName UG27
+defaultPos chr1:1-1000
+
+genome _MINIGRAPH_
+twoBitPath _MINIGRAPH_/_MINIGRAPH_.2bit
+trackDb _MINIGRAPH_/trackDb.txt
+groups groups.txt
+htmlPath _MINIGRAPH_/description.html
+description _MINIGRAPH_
+organism _MINIGRAPH_
+orderKey 4800
+scientificName _MINIGRAPH_
+defaultPos s3768:1-1000
+
